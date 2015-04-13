@@ -7,6 +7,8 @@ RUN mkdir /code
 WORKDIR /code
 RUN cd /code
 RUN git clone https://github.com/WPH95/harbour-agent.git agent
+RUN ls
+RUN ls agent
 CMD python agent/agent.py
 
 
